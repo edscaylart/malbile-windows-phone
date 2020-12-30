@@ -1,0 +1,67 @@
+﻿<vm:MainViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:Malbile.ViewModels"
+    xmlns:vi="clr-namespace:Malbile.Model">
+    
+    <vm:MainViewModel.RecentAnimes>
+        <vi:Anime Image="/Assets/Logo.png" Title="Anime Title" Type="1" Status="3" Episodes="22" MyWatchedEpisodes="4"/>
+        <vi:Anime Image="/Assets/Logo.png" Title="Anime Title" Type="1" Status="1" Episodes="46" MyWatchedEpisodes="2"/>
+    </vm:MainViewModel.RecentAnimes>
+
+    <vm:MainViewModel.AnimesWatching>
+        <vi:Anime Image="/Assets/Logo.png" Title="Full Metal Alchemist: Brotherhood" Type="1" Status="3" Episodes="22" MyWatchedEpisodes="4"/>
+        <vi:Anime Image="/Assets/Logo.png" Title="Anime Title" Type="1" Status="1" Episodes="46" MyWatchedEpisodes="2"/>
+    </vm:MainViewModel.AnimesWatching>
+
+    <vm:MainViewModel.AnimesCompleted>
+        <vi:Anime Image="/Assets/Logo.png" Title="Anime Title" Type="1" Status="3" Episodes="22" MyWatchedEpisodes="4"/>
+        <vi:Anime Image="/Assets/Logo.png" Title="Anime Title" Type="1" Status="1" Episodes="46" MyWatchedEpisodes="2"/>
+    </vm:MainViewModel.AnimesCompleted>
+
+    <vm:MainViewModel.AnimesDropped>
+        <vi:Anime Image="/Assets/Logo.png" Title="Anime Title" Type="1" Status="3" Episodes="22" MyWatchedEpisodes="4"/>
+        <vi:Anime Image="/Assets/Logo.png" Title="Anime Title" Type="1" Status="1" Episodes="46" MyWatchedEpisodes="2"/>
+    </vm:MainViewModel.AnimesDropped>
+    
+    <vm:MainViewModel.AnimesOnHold>
+        <vi:Anime Image="/Assets/Logo.png" Title="Anime Title" Type="1" Status="3" Episodes="22" MyWatchedEpisodes="4"/>
+        <vi:Anime Image="/Assets/Logo.png" Title="Anime Title" Type="1" Status="1" Episodes="46" MyWatchedEpisodes="2"/>
+    </vm:MainViewModel.AnimesOnHold>
+
+    <vm:MainViewModel.AnimesPlanned>
+        <vi:Anime Image="/Assets/Logo.png" Title="Anime Title" Type="1" Status="3" Episodes="22" MyWatchedEpisodes="4"/>
+        <vi:Anime Image="/Assets/Logo.png" Title="Anime Title" Type="1" Status="1" Episodes="46" MyWatchedEpisodes="2"/>
+    </vm:MainViewModel.AnimesPlanned>
+
+    <vm:MainViewModel.RecentMangas>
+        <vi:Manga Image="/Assets/Logo.png" Title="Manga Title" Type="1" Status="3" Chapters="22" MyReadChapters="4"/>
+        <vi:Manga Image="/Assets/Logo.png" Title="Manga Title" Type="1" Status="1" Chapters="46" MyReadChapters="2"/>
+    </vm:MainViewModel.RecentMangas>
+
+    <vm:MainViewModel.MangasReading>
+        <vi:Manga Image="/Assets/Logo.png" Title="Manga Title" Type="1" Status="3" Chapters="22" MyReadChapters="4"/>
+        <vi:Manga Image="/Assets/Logo.png" Title="Manga Title" Type="1" Status="1" Chapters="46" MyReadChapters="2"/>
+    </vm:MainViewModel.MangasReading>
+
+    <vm:MainViewModel.MangasCompleted>
+        <vi:Manga Image="/Assets/Logo.png" Title="Manga Title" Type="1" Status="3" Chapters="22" MyReadChapters="4"/>
+        <vi:Manga Image="/Assets/Logo.png" Title="Manga Title" Type="1" Status="1" Chapters="46" MyReadChapters="2"/>
+    </vm:MainViewModel.MangasCompleted>
+
+    <vm:MainViewModel.MangasDropped>
+        <vi:Manga Image="/Assets/Logo.png" Title="Manga Title" Type="1" Status="3" Chapters="22" MyReadChapters="4"/>
+        <vi:Manga Image="/Assets/Logo.png" Title="Manga Title" Type="1" Status="1" Chapters="46" MyReadChapters="2"/>
+    </vm:MainViewModel.MangasDropped>
+    
+    <vm:MainViewModel.MangasOnHold>
+        <vi:Manga Image="/Assets/Logo.png" Title="Manga Title" Type="1" Status="3" Chapters="22" MyReadChapters="4"/>
+        <vi:Manga Image="/Assets/Logo.png" Title="Manga Title" Type="1" Status="1" Chapters="46" MyReadChapters="2"/>
+    </vm:MainViewModel.MangasOnHold>
+    
+    <vm:MainViewModel.MangasPlanned>
+        <vi:Manga Image="/Assets/Logo.png" Title="Manga Title" Type="1" Status="3" Chapters="22" MyReadChapters="4"/>
+        <vi:Manga Image="/Assets/Logo.png" Title="Manga Title" Type="1" Status="1" Chapters="46" MyReadChapters="2"/>
+    </vm:MainViewModel.MangasPlanned>
+
+</vm:MainViewModel>
